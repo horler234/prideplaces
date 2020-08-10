@@ -61,3 +61,13 @@ p.info {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .info-wrapper {
+        width: 100%;
+    }
+
+    .subscribe-container {
+        width: 90%;
+    }
+}

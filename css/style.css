@@ -1046,7 +1046,7 @@ a.footer-logo img {
     width: 95%;
     margin: auto;
     margin-bottom: 47px; } }
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 412px) {
   .swiper-container-horizontal > .swiper-pagination-bullets.city-page {
     bottom: -490px; } }
 @media screen and (max-width: 375px) {
