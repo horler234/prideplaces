@@ -1,0 +1,481 @@
+.nav-container
+    width: 95%
+    margin: auto
+    display: flex
+
+.nav-list-wrapper
+    width: 94%
+
+.sign-in-wrapper
+    width: 6%
+    text-align: center
+    border-left: 1px solid #312D3F
+
+ul.navbar-list
+    display: flex
+    list-style: none
+    width: 70%
+    justify-content: space-between
+    margin: auto
+
+ul.navbar-list li.navbar-list-item a
+    text-decoration: none
+    color: $dark-grey
+
+ul.navbar-list li.navbar-list-item a:hover
+    color: $brand-purple
+
+.container
+    width: 95%
+    margin: auto
+
+.header-flex
+    display: flex
+    justify-content: space-between
+
+.header-logo-wrapper
+    width: 25%
+
+.header-button-wrapper
+    padding-top: 5px
+
+.banner-container
+    width: 50%
+    margin: auto
+
+.search-container
+    background-color: rgba(255, 255, 255, .3)
+    padding: 20px
+    margin-top: 35px
+
+form.search-form
+    width: 100%
+    display: flex
+    justify-content: space-between
+    font-size: 14px
+
+form.search-form input
+    font-family: inherit
+    padding: 10px 0
+
+form.search-form input:focus
+    outline: none
+
+.search-btn-container
+    width: 20%
+
+.search-wrapper
+    width: 77%
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+form.search-form input.find-input
+    width: 79%
+    padding-left: 1%
+
+form.search-form input.in-input
+    width: 89%
+    padding-left: 1%
+
+.find
+    width: 60.7%
+    border-radius: 4px 0 0 4px
+    background-color: #ffffff
+    color: #000000
+    font-weight: 700
+    padding-left: 1%
+    border-right: 1px solid $brand-grey
+
+.in
+    width: 35%
+    border-radius: 0 4px 4px 0
+    background-color: #ffffff
+    color: #000000
+    font-weight: 700
+    padding-left: 3%
+
+.categories-container
+    width: 60%
+    display: flex
+    justify-content: space-between
+    margin: auto
+    transform: translateY(-50%)
+
+a.category-link
+    width: 15%
+    text-decoration: none
+    color: #ffffff
+    transition: all .6s ease
+
+a.category-link:hover
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75)
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75)
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75)
+    
+
+.category
+    background-color: $brand-purple
+    width: 100%
+    border-radius: 4px
+    text-align: center
+    color: #ffffff
+    font-size: 15px
+    padding: 20px 0
+
+.happening-cities-section
+    padding-top: 55px
+
+.cities-container
+    width: 85%
+    margin: auto
+
+.city-flex
+    display: flex
+    justify-content: space-between
+
+a.washington-link
+    width: 49%
+    text-decoration: none
+    margin-bottom: 30px
+
+.washington,
+.louis,
+.francisco,
+.new-york,
+.angeles,
+.chicago,
+.austin
+    width: 100%
+    height: 444px
+    border-radius: 8px
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) 53%, rgba(0,0,0,0.5) 72%), url(../assets/happening-1.png)
+    // -moz-background-size: cover
+    // -webkit-background-size: cover
+    // -o-background-size: cover
+    background-size: 105%
+    -moz-background-repeat: no-repeat
+    -webkit-background-repeat: no-repeat
+    -o-background-repeat: no-repeat
+    background-repeat: no-repeat
+    background-position-x: -25px
+    transition: all .3s ease
+    color: #ffffff
+    text-align: center
+    display: flex
+    align-items: flex-end
+    overflow-y: hidden
+
+.new-york,
+.angeles,
+.chicago,
+.austin
+    height: 192px
+
+.seattle
+    width: 100%
+    height: 222px
+    border-radius: 8px
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) 53%, rgba(0,0,0,0.5) 72%), url(../assets/happening-2.png)
+    background-size: 105%
+    -moz-background-repeat: no-repeat
+    -webkit-background-repeat: no-repeat
+    -o-background-repeat: no-repeat
+    background-repeat: no-repeat
+    background-position-x: -25px
+    transition: all .3s ease
+    color: #ffffff
+    text-align: center
+    display: flex
+    align-items: flex-end
+    overflow-y: hidden
+
+.francisco
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) 53%, rgba(0,0,0,0.5) 72%), url(../assets/happening-3.png)
+    background-size: 105%
+    -moz-background-repeat: no-repeat
+    -webkit-background-repeat: no-repeat
+    -o-background-repeat: no-repeat
+    background-repeat: no-repeat
+    background-position-x: -12px
+
+.louis
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) 53%, rgba(0,0,0,0.5) 72%), url(../assets/happening-4.png)
+    background-size: 105%
+    -moz-background-repeat: no-repeat
+    -webkit-background-repeat: no-repeat
+    -o-background-repeat: no-repeat
+    background-repeat: no-repeat
+    background-position-x: -12px
+
+.new-york
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) 53%, rgba(0,0,0,0.5) 72%), url(../assets/happening-5.png)
+    background-size: 105%
+    -moz-background-repeat: no-repeat
+    -webkit-background-repeat: no-repeat
+    -o-background-repeat: no-repeat
+    background-repeat: no-repeat
+    background-position-x: -12px
+
+.angeles
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) 53%, rgba(0,0,0,0.5) 72%), url(../assets/happening-6.png)
+    background-size: 105%
+    -moz-background-repeat: no-repeat
+    -webkit-background-repeat: no-repeat
+    -o-background-repeat: no-repeat
+    background-repeat: no-repeat
+    background-position-x: -12px
+
+.chicago
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) 53%, rgba(0,0,0,0.5) 72%), url(../assets/happening-7.png)
+    background-size: 105%
+    -moz-background-repeat: no-repeat
+    -webkit-background-repeat: no-repeat
+    -o-background-repeat: no-repeat
+    background-repeat: no-repeat
+    background-position-x: -12px
+
+.austin
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) 53%, rgba(0,0,0,0.5) 72%), url(../assets/happening-8.png)
+    background-size: 105%
+    -moz-background-repeat: no-repeat
+    -webkit-background-repeat: no-repeat
+    -o-background-repeat: no-repeat
+    background-repeat: no-repeat
+    background-position-x: -12px
+
+.washington:hover,
+.seattle:hover,
+.francisco:hover,
+.louis:hover,
+.new-york:hover,
+.angeles:hover,
+.chicago:hover,
+.austin:hover
+    background-position-x: 0
+
+.name-listing
+    width: 100%
+    transform: translateY(-30px)
+
+.other-city
+    width: 49%
+
+a.seattle-link
+    width: 100%
+    text-decoration: none
+    margin-bottom: 30px
+
+a.francisco-link,
+a.louis-link
+    width: 47%
+    margin-top: 30px
+    text-decoration: none
+
+.remaining-flex
+    display: flex
+    justify-content: space-between
+
+.francisco,
+.louis
+    height: 192px
+
+a.bottom-cities-link
+    width: 23%
+    text-decoration: none
+
+.beyond-container
+    width: 87%
+    margin: auto
+
+.beyond-flex
+    display: flex
+    justify-content: space-between
+    margin-bottom: 90px
+
+.business-text
+    width: 33%
+    color: $dark-grey
+    display: flex
+    align-items: center
+    justify-content: flex-end
+
+.business-img
+    width: 63%
+
+.text-container
+    width: 95%
+
+.final
+    margin-bottom: 0
+
+.new-places-flex
+    width: 82%
+    display: flex
+    justify-content: space-between
+    margin: auto
+
+a.business-link
+    width: 32%
+    margin-bottom: 100px
+    color: $dark-grey
+    text-decoration: none
+    transition: all .5s ease
+
+a.business-link:hover
+    -webkit-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75)
+    -moz-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75)
+    box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75)
+
+.business-food
+    width: 100%
+    height: 215px
+    background: url(../assets/business-food.png)
+    -moz-background-size: cover
+    -webkit-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+    -moz-background-repeat: no-repeat
+    -webkit-background-repeat: no-repeat
+    -o-background-repeat: no-repeat
+    background-repeat: no-repeat
+    border-radius: 2px
+
+.open-sign
+    float: right
+    padding: 5px 10px
+    border-radius: 2px
+    background: rgba(33, 33, 33, 0.64)
+    color: #ffffff
+    font-weight: bold
+    font-size: 12px
+    margin-top: 21px
+    margin-right: 25px
+
+.business-reputation
+    display: flex
+    justify-content: space-between
+    margin-top: 20px
+
+.rating-wrapper,
+.location-container
+    width: 50%
+
+.rating-wrapper
+    text-align: center
+    border-right: 1px solid #DEDEDE
+    padding: 5px 0
+
+.location-container
+    text-align: center
+    font-size: 12px
+    font-weight: 500
+    color: #817F7F
+    display: flex
+    align-items: flex-end
+    justify-content: center
+    padding-bottom: 5px
+
+.business-info
+    border: 1px solid #DEDEDE
+    border-top: none
+    padding-top: 20px
+    border-radius: 0 0 2px 2px
+    padding-bottom: 18px
+
+
+.to-know-container
+    // width: 82%
+    margin: auto
+    display: flex
+    justify-content: space-between
+
+.to-know-form-wrapper
+    width: 50%
+    display: flex
+    justify-content: flex-end
+    align-items: center
+
+form.subscribe-form
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    margin-top: 62px
+
+.know-input-wrapper
+    width: 48%
+
+input.mail-input,
+input.name-input,
+input.city-location,
+input.state-location
+    padding: 12px 7%
+    font-family: inherit
+    width: 100%
+    margin-bottom: 20px
+    border: 1px solid #DEDEDE
+    border-radius: 2px
+
+input.mail-input:focus,
+input.name-input:focus,
+input.city-location:focus,
+input.state-location:focus
+    outline: none
+
+input.state-location
+    width: 42%
+
+.subscribe-wrapper
+    width: 48%
+    display: flex
+    justify-content: space-between
+
+.know-img-wrapper
+    width: 48%
+
+.form-container
+    width: 82%
+
+.footer-container
+    width: 85%
+    margin: auto
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+
+.social-media-container
+    margin-top: 40px
+
+.social-media-container a.media-link
+    text-decoration: none
+    color: #ffffff
+    margin-right: 20px
+
+.social-media-container a.media-link:hover
+    color: $brand-purple
+
+ul.footer-list
+    list-style: none
+    margin-top: 15px
+
+ul.footer-list li.footer-list-item
+    line-height: 2
+
+.footer-company-container
+    width: 15%
+
+.footer-join-container
+    width: 19%
+
+.footer-city-container
+    width: 19%
+
+.copyright-container
+    margin-top: 50px
+
+.submit-btn-mobile
+    display: none
+
+.swiper-container,
+.swiper-container2
+    display: none

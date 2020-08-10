@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#A00DA7">
+    <meta property="og:title" content="Pride Places">
+    <meta property="og:description" content="Pride Places builds community by connecting you with the LGBTQ-owned and friendly companies you are looking for. It can be hard enough handling our daily business that life throws at us and we should be able to take care of those things without fear of harassment, discrimination, or violence. That’s why Pride Places is the dedicated site to provide safe and friendly business and services that you can trust.">
+    <meta property="og:image" content="https://prideplaces.com/wp-content/uploads/2019/10/Pride-Places_Logo.png">
+    <meta property="og:url" content="https://prideplaces.netlify.app">
+    <meta name="twitter:card" content="https://prideplaces.com/wp-content/uploads/2019/10/Pride-Places_Logo.png">
+    <link rel="shortcut icon" href="assets/Mark.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-subscribers.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <title>Pride Places | Homepage</title>
+</head>
+<body>
+
+    <div class="subscribe-container">
+        <div class="brand-logo">
+            <img src="assets/header-logo.svg" alt="Logo">
+        </div>
+
+        <h1 class="title">SUBSCRIBERS</h1>
+        <div class="subscribe-flex"></div>
+
+        <div class="home-link">
+            <a href="index.html"><i class="fas fa-home"></i> Homepage</a>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBZkkmveCcELwRyi-cCnvRZgdGThPwmokQ",
+            authDomain: "udemy-modern-javascript-b48b9.firebaseapp.com",
+            databaseURL: "https://udemy-modern-javascript-b48b9.firebaseio.com",
+            projectId: "udemy-modern-javascript-b48b9",
+            storageBucket: "udemy-modern-javascript-b48b9.appspot.com",
+            messagingSenderId: "24323069205",
+            appId: "1:24323069205:web:8a94db83b6535e7dabc51c"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+    </script>
+
+    <script src="subscribe-code.js"></script>
+</body>
+    
+</body>
+</html>
