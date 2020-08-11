@@ -12,11 +12,34 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preload.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     <title>LGBTQ Business Directory | Pride Places</title>
 </head>
-<body>
+<body onload="preload()">
+    <div class="preload-container">
+        <div class="preload-wrapper">
+            <div class="pride-wrapper">
+                <img src="assets/PRIDE.svg" alt="Pride" class="pride-img">
+            </div>
+
+            <div class="mark-wrapper">
+                <img src="assets/Mark.svg" alt="Location" class="mark">
+            </div>
+
+            <div class="places-container">
+                <div class="places-wrapper">
+                    <img src="assets/PLACES.svg" alt="Places" class="places">
+                </div>
+
+                <div class="lgbtq-anime-wrapper">
+                    <img src="assets/LGBTQDIRECTORY.svg" alt="LGBTQ" class="lgbtq">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <nav>
         <div class="nav-container">
             <div class="nav-list-wrapper">

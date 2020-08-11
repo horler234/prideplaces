@@ -47,3 +47,25 @@ subscribeForm.addEventListener('submit', e => {
 
   subscribeForm.reset();
 });
+
+let myVar;
+
+// duration of the preload
+const preload = () => {
+    myVar = setTimeout(showpage, 5000);
+  }
+
+
+// after the preload
+const showpage =  ()  => {
+    document.querySelector('.preload-container').style.display = 'none'
+    document.querySelector('nav').style.opacity = '1';
+    document.querySelector('header').style.display = 'block';
+    document.querySelector('footer').style.display = 'block';
+    document.querySelector('.top-banner').style.display = 'block';
+    document.querySelector('.categories-container').style.display = 'flex';
+    document.querySelector('.happening-cities-section').style.display = 'block';
+    document.querySelector('.beyond-section').style.display = 'block';
+    document.querySelector('.new-places-section').style.display = 'block';
+    document.querySelector('.first-to-know-section').style.display = 'block';
+  }
