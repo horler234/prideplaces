@@ -894,7 +894,10 @@ a.footer-logo img {
   .swiper-container2 {
     width: 100%;
     overflow-x: hidden;
-    height: 260px; }
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
 
   .city-flex,
   .remaining-flex {
