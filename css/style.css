@@ -20,7 +20,8 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10; }
+  z-index: 10;
+  opacity: 0; }
 
 header {
   padding: 18px 0;
@@ -29,7 +30,8 @@ header {
   width: 100%;
   left: 0;
   background-color: #ffffff;
-  z-index: 10; }
+  z-index: 10;
+  display: none; }
 
 section.top-banner {
   background: linear-gradient(44.98deg, rgba(85, 4, 89, 0.7) 0.21%, rgba(170, 20, 157, 0.7) 41.23%, rgba(255, 76, 71, 0.7) 100%), url(../assets/header-background.png);
@@ -44,29 +46,35 @@ section.top-banner {
   padding: 140px 0;
   color: #ffffff;
   text-align: center;
-  margin-top: 129px; }
+  margin-top: 129px;
+  display: none; }
 
 section.happening-cities-section {
-  margin-bottom: 97px; }
+  margin-bottom: 97px;
+  display: none; }
 
 section.beyond-section {
   padding-top: 90px;
   background: #F8F8F8;
-  padding-bottom: 87px; }
+  padding-bottom: 87px;
+  display: none; }
 
 section.new-places-section {
-  padding-top: 85px; }
+  padding-top: 85px;
+  display: none; }
 
 section.first-to-know-section {
   margin-top: 95px;
   background: #3AC4C8;
-  color: #ffffff; }
+  color: #ffffff;
+  display: none; }
 
 footer {
   background-color: #312D3F;
   color: #ffffff;
   padding-top: 63px;
-  padding-bottom: 24px; }
+  padding-bottom: 24px;
+  display: none; }
 
 .nav-container {
   width: 95%;
@@ -170,7 +178,8 @@ form.search-form input.in-input {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+  display: none; }
 
 a.category-link {
   width: 15%;
